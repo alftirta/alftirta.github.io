@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.flex-container {
+    display: flex;
+    margin: 0 auto;
+    background-color: dodgerblue;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex-container > div {
+    height: 594px;
+    width: 400px; 
+    background-color: white;
+    margin: 30px 20px;
+    padding: 30px;
+    border-radius: 2%;
+    text-align: center;
+}
+
+#typing-area, #typing-input {
+    display: block;
+    width: 660px;
+    height: 210px;
+    font-size: 14pt;
+    line-height: 200%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 2%;
+    text-align: left;
+}
+
+#highest-scores-table {
+    width: 330px;
+    height: 420px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    /* overflow: scroll; */
+    border-radius: 2%;
+}
+
+#button, #button2 {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5%;
+}
